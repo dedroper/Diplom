@@ -1,0 +1,37 @@
+# Скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+
+# Виртуальное окружение
+venv/
+.env
+.env.*
+
+# Конфигурационные файлы среды разработки PyCharm/IntelliJ IDEA
+.idea/
+
+# Конфигурационные файлы среды разработки VS Code
+.vscode/
+
+# Системные файлы macOS
+.DS_Store
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Кэш pytest
+.pytest_cache/
+
+# Кэш и статические файлы анализа
+.mypy_cache/
+.cache/
+
+# Файлы и папки, создаваемые при тестировании и сборке
+*.coverage
+htmlcov/
+
+# Файлы блокировок и установок pip
+pip-log.txt
+pip-delete-this-directory.txt
